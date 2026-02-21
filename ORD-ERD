@@ -1,9 +1,24 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.0">
   <diagram name="Page-1" id="Vh3Rs3ibkcZNnck09PW4">
-    <mxGraphModel dx="607" dy="1324" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="34eXKsdEUoF5ixbiLpEv-5" edge="1" parent="1" source="teIZ8x38tFpYizQWIGVR-54" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToOne;startArrow=ERmandOne;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.411;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" target="teIZ8x38tFpYizQWIGVR-55" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="190" y="1360.0000000000005" as="sourcePoint" />
+            <mxPoint x="310" y="1330.0000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teIZ8x38tFpYizQWIGVR-14" parent="1" style="swimlane;whiteSpace=wrap;html=1;swimlaneFillColor=light-dark(#82f07a, #ededed);" value="Internal Service" vertex="1">
+          <mxGeometry height="240" width="760" x="600" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="teIZ8x38tFpYizQWIGVR-15" parent="teIZ8x38tFpYizQWIGVR-14" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="FIX Gateway" vertex="1">
+          <mxGeometry height="60" width="30" x="490" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="teIZ8x38tFpYizQWIGVR-16" parent="teIZ8x38tFpYizQWIGVR-14" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Market Maker&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;Engine&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="160" y="120" as="geometry" />
+        </mxCell>
         <mxCell id="teIZ8x38tFpYizQWIGVR-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Employee Layer" vertex="1">
           <mxGeometry height="600" width="200" x="40" y="40" as="geometry" />
         </mxCell>
@@ -19,26 +34,17 @@
         <mxCell id="teIZ8x38tFpYizQWIGVR-5" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Master Data Layer" vertex="1">
           <mxGeometry height="600" width="200" x="320" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="teIZ8x38tFpYizQWIGVR-6" edge="1" parent="teIZ8x38tFpYizQWIGVR-5" source="teIZ8x38tFpYizQWIGVR-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="440" y="140" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="teIZ8x38tFpYizQWIGVR-7" connectable="0" parent="teIZ8x38tFpYizQWIGVR-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="(1)" vertex="1">
-          <mxGeometry relative="1" x="-0.5719" y="-2" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="teIZ8x38tFpYizQWIGVR-8" parent="teIZ8x38tFpYizQWIGVR-5" style="html=1;whiteSpace=wrap;" value="Risk Management&lt;div&gt;Config&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="120" x="40" y="120" as="geometry" />
+          <mxGeometry height="40" width="120" x="40" y="140" as="geometry" />
         </mxCell>
         <mxCell id="teIZ8x38tFpYizQWIGVR-9" edge="1" parent="teIZ8x38tFpYizQWIGVR-5" source="teIZ8x38tFpYizQWIGVR-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="240" y="260" />
-              <mxPoint x="240" y="140" />
+              <mxPoint x="240" y="280" />
+              <mxPoint x="240" y="160" />
+              <mxPoint x="440" y="160" />
             </Array>
-            <mxPoint x="440" y="140" as="targetPoint" />
+            <mxPoint x="440" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="teIZ8x38tFpYizQWIGVR-10" connectable="0" parent="teIZ8x38tFpYizQWIGVR-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="(2)" vertex="1">
@@ -47,22 +53,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="teIZ8x38tFpYizQWIGVR-11" parent="teIZ8x38tFpYizQWIGVR-5" style="html=1;whiteSpace=wrap;" value="Market Maker Config" vertex="1">
-          <mxGeometry height="40" width="120" x="40" y="240" as="geometry" />
+          <mxGeometry height="40" width="120" x="40" y="260" as="geometry" />
         </mxCell>
         <mxCell id="teIZ8x38tFpYizQWIGVR-12" parent="teIZ8x38tFpYizQWIGVR-5" style="html=1;whiteSpace=wrap;" value="Instrument Map" vertex="1">
-          <mxGeometry height="40" width="120" x="40" y="360" as="geometry" />
+          <mxGeometry height="40" width="120" x="40" y="380" as="geometry" />
         </mxCell>
         <mxCell id="teIZ8x38tFpYizQWIGVR-13" parent="teIZ8x38tFpYizQWIGVR-5" style="html=1;whiteSpace=wrap;" value="Account Info" vertex="1">
           <mxGeometry height="40" width="120" x="40" y="480" as="geometry" />
-        </mxCell>
-        <mxCell id="teIZ8x38tFpYizQWIGVR-14" parent="1" style="swimlane;whiteSpace=wrap;html=1;swimlaneFillColor=light-dark(#82f07a, #ededed);" value="Internal Service" vertex="1">
-          <mxGeometry height="240" width="760" x="600" y="40" as="geometry" />
-        </mxCell>
-        <mxCell id="teIZ8x38tFpYizQWIGVR-15" parent="teIZ8x38tFpYizQWIGVR-14" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="FIX Gateway" vertex="1">
-          <mxGeometry height="60" width="30" x="490" y="120" as="geometry" />
-        </mxCell>
-        <mxCell id="teIZ8x38tFpYizQWIGVR-16" parent="teIZ8x38tFpYizQWIGVR-14" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Market Maker&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;Engine&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="30" x="160" y="120" as="geometry" />
         </mxCell>
         <mxCell id="teIZ8x38tFpYizQWIGVR-17" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=#CCE5FF;" value="Transaction Data Layer" vertex="1">
           <mxGeometry height="200" width="760" x="600" y="440" as="geometry" />
@@ -93,7 +90,7 @@
         <mxCell id="teIZ8x38tFpYizQWIGVR-23" parent="teIZ8x38tFpYizQWIGVR-17" style="html=1;whiteSpace=wrap;" value="Order / Quote Object" vertex="1">
           <mxGeometry height="40" width="120" x="520" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="teIZ8x38tFpYizQWIGVR-24" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Transaction Data Layer" vertex="1">
+        <mxCell id="teIZ8x38tFpYizQWIGVR-24" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Ho Chi Minh Stock Exchange" vertex="1">
           <mxGeometry height="600" width="280" x="1480" y="40" as="geometry" />
         </mxCell>
         <mxCell id="teIZ8x38tFpYizQWIGVR-25" parent="teIZ8x38tFpYizQWIGVR-24" style="html=1;whiteSpace=wrap;" value="FIX Entry Point" vertex="1">
@@ -183,7 +180,9 @@
         <mxCell id="teIZ8x38tFpYizQWIGVR-39" edge="1" parent="1" source="teIZ8x38tFpYizQWIGVR-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" target="teIZ8x38tFpYizQWIGVR-16">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="990" y="370" />
+              <mxPoint x="991" y="480" />
+              <mxPoint x="900" y="480" />
+              <mxPoint x="900" y="370" />
               <mxPoint x="970" y="370" />
               <mxPoint x="970" y="180" />
             </Array>
@@ -192,7 +191,7 @@
         </mxCell>
         <mxCell id="teIZ8x38tFpYizQWIGVR-40" connectable="0" parent="teIZ8x38tFpYizQWIGVR-39" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="(12)" vertex="1">
           <mxGeometry relative="1" x="-0.3087" y="2" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="72" y="-25" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="teIZ8x38tFpYizQWIGVR-41" edge="1" parent="1" source="teIZ8x38tFpYizQWIGVR-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
@@ -256,28 +255,87 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="teIZ8x38tFpYizQWIGVR-50" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Object: Account Info&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;AccountID: String (PK)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;AccountType: String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Custodian_ID: String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Last_Update_By: String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Last_Update_At: Datetime&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="120" width="160" x="40" y="800" as="geometry" />
+          <mxGeometry height="120" width="160" x="160" y="1640" as="geometry" />
         </mxCell>
         <mxCell id="teIZ8x38tFpYizQWIGVR-51" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Object: Market Data&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;MD_Entry_ID: String (PK)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Securities_Code: Varchar[8]&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Best_Bid_Price: Decimal[18,2]&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Best_Ask_Price: Decimal[18,2]&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Last_Price: Decimal[18,2]&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Update_Time: Datetime&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="120" width="200" x="40" y="960" as="geometry" />
+          <mxGeometry height="160" width="200" x="560" y="840" as="geometry" />
         </mxCell>
         <mxCell id="teIZ8x38tFpYizQWIGVR-52" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Object: Cancel Request&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;CICancelID: String (PK)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;OrigCIOrdID: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;OrderID: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;SecuritiesID: Varchar[8]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Cancel_Reason: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;TransactTime: Datetime&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Cancel_Status: String&lt;/p&gt;" vertex="1">
-          <mxGeometry height="160" width="200" x="280" y="960" as="geometry" />
-        </mxCell>
-        <mxCell id="teIZ8x38tFpYizQWIGVR-53" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Object: Cancel Request&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;CICancelID: String (PK)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;OrigCIOrdID: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;OrderID: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;SecuritiesID: Varchar[8]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Cancel_Reason: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;TransactTime: Datetime&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Cancel_Status: String&lt;/p&gt;" vertex="1">
-          <mxGeometry height="160" width="200" x="320" y="760" as="geometry" />
+          <mxGeometry height="160" width="200" x="560" y="1400" as="geometry" />
         </mxCell>
         <mxCell id="teIZ8x38tFpYizQWIGVR-54" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Object: Instrument Map&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;SecuritiesID: Varchar[8] (PK)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Symbol: Varchar[8]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Underlying_Symbol: Varchar[3]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Strike_Price: Decimal[18,2]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Maturity_Date: Date&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Conversion_Rate: Decimal[18,2]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Last_Update_At: Datetime&lt;/p&gt;" vertex="1">
-          <mxGeometry height="160" width="200" x="540" y="960" as="geometry" />
+          <mxGeometry height="160" width="200" x="160" y="1400" as="geometry" />
         </mxCell>
         <mxCell id="teIZ8x38tFpYizQWIGVR-55" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Object: Market Maker Config&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;ConfigID: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;SecuritiesID: Varchar[8]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Bid_Spread_Tick: Integer&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Ask_Spread_Tick: Integer&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Max_Spread_Allowed: Decimal[18,2]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Quote_Qty_Default: Integer&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Min_Remain_Qty: Integer&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Volatility_Offset: Decimal[18,2]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Hedging_Enabled: Boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Last_Updated_By: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Last_Update_At: Datetime&lt;/p&gt;" vertex="1">
-          <mxGeometry height="200" width="230" x="770" y="800" as="geometry" />
+          <mxGeometry height="200" width="240" x="160" y="1120" as="geometry" />
         </mxCell>
         <mxCell id="teIZ8x38tFpYizQWIGVR-56" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Object: Risk Management Config&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;ConfigID: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;SecuritiesID: Varchar[8]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Max_Spread: Decimal[18,2]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Min_Quote_Qty: Integer&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Delta_Hedge_Threshold: Decimal[10,4]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Volatility_Adjustment: Decimal[10,4]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Auto_Quote_Switch: Boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Last_Update_By: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Last_Update_At: Datetime&lt;/p&gt;" vertex="1">
-          <mxGeometry height="200" width="230" x="1040" y="800" as="geometry" />
+          <mxGeometry height="200" width="240" x="160" y="840" as="geometry" />
         </mxCell>
-        <mxCell id="teIZ8x38tFpYizQWIGVR-57" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Object: Risk Management Config&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;ConfigID: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;SecuritiesID: Varchar[8]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Max_Spread: Decimal[18,2]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Min_Quote_Qty: Integer&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Delta_Hedge_Threshold: Decimal[10,4]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Volatility_Adjustment: Decimal[10,4]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Auto_Quote_Switch: Boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Last_Update_By: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Last_Update_At: Datetime&lt;/p&gt;" vertex="1">
-          <mxGeometry height="200" width="230" x="1310" y="800" as="geometry" />
+        <mxCell id="teIZ8x38tFpYizQWIGVR-57" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Object: Order/Quote Object&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;CIOrdID: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;OrderID: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;SeciritiesID: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Side: Integer&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Order_Qty: Integer&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Price: Decimal[18,2]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;OrdStatus: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Order_Type: String&lt;/p&gt;" vertex="1">
+          <mxGeometry height="160" width="200" x="560" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="34eXKsdEUoF5ixbiLpEv-1" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Object: Execution Report&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;ExecID: String (PK)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;CIOrdID: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Last_Qty: Integer&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Last_Px: Decimal[18,2]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;TransactTime: Datetime&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Leaves_Qty: Integer&lt;/p&gt;" vertex="1">
+          <mxGeometry height="160" width="200" x="560" y="1640" as="geometry" />
+        </mxCell>
+        <mxCell id="teIZ8x38tFpYizQWIGVR-6" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="180" as="sourcePoint" />
+            <mxPoint x="760" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="teIZ8x38tFpYizQWIGVR-7" connectable="0" parent="teIZ8x38tFpYizQWIGVR-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="(1)" vertex="1">
+          <mxGeometry relative="1" x="-0.5719" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="34eXKsdEUoF5ixbiLpEv-6" edge="1" parent="1" source="teIZ8x38tFpYizQWIGVR-54" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;exitX=0.998;exitY=0.41;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="teIZ8x38tFpYizQWIGVR-51" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="1466" />
+              <mxPoint x="420" y="960" />
+            </Array>
+            <mxPoint x="280" y="1466.8800000000003" as="sourcePoint" />
+            <mxPoint x="560" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="34eXKsdEUoF5ixbiLpEv-7" edge="1" parent="1" source="teIZ8x38tFpYizQWIGVR-54" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.587;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="teIZ8x38tFpYizQWIGVR-57" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="1494" />
+              <mxPoint x="440" y="1200" />
+            </Array>
+            <mxPoint x="370" y="1520" as="sourcePoint" />
+            <mxPoint x="520" y="1650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="34eXKsdEUoF5ixbiLpEv-8" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="teIZ8x38tFpYizQWIGVR-57" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="1700" />
+              <mxPoint x="460" y="1240" />
+            </Array>
+            <mxPoint x="320" y="1700" as="sourcePoint" />
+            <mxPoint x="420" y="1600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="34eXKsdEUoF5ixbiLpEv-9" edge="1" parent="1" source="teIZ8x38tFpYizQWIGVR-57" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="teIZ8x38tFpYizQWIGVR-52" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="1050" />
+            </Array>
+            <mxPoint x="790" y="1200" as="sourcePoint" />
+            <mxPoint x="880" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="34eXKsdEUoF5ixbiLpEv-10" edge="1" parent="1" source="teIZ8x38tFpYizQWIGVR-57" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="34eXKsdEUoF5ixbiLpEv-1" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="1430" />
+            </Array>
+            <mxPoint x="860" y="1400" as="sourcePoint" />
+            <mxPoint x="920" y="1600" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
